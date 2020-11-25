@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Sucesso</title>
+</head>
+<body>
+	<h1>PRODUTO CADASTRADO</h1>
+	<div th:text="'nome: ' + ${aluno.nome}"></div>
+	<div th:text="'ra: ' + ${aluno.ra}"></div>
+	<a th:href=@{/aluno}>Voltar</a>
+</body>
+</html>
